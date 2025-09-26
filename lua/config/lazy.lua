@@ -29,8 +29,8 @@ require("lazy").setup({
   install = { colorscheme = { "tokyonight" } },
   checker = {
     -- automatically check for plugin updates
-    enabled = true,
-    notify = true,
+    enabled = false,
+    notify = false,
     frequency = 604800 -- weekly
   },
   performance = {
